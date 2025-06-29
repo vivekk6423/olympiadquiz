@@ -1,0 +1,19 @@
+app:
+  title: "My Streamlit App"
+  icon: "🚀"
+  layout: "wide"
+  sidebar_state: "expanded"
+
+data:
+  refresh_rate: 30
+  cache_ttl: 3600
+
+ui:
+  theme: "light"
+  show_toolbar: true
+  show_footer: true
+
+api:
+  base_url: "https://api.example.com"
+  timeout: 30
+  retries: 3
